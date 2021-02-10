@@ -3,10 +3,7 @@
 T = int(input())
 
 for tc in range(1, T+1):
-    HWN = list(map(int, input().split()))
-    H = HWN[0]
-    W = HWN[1]
-    N = HWN[2]
+    H, W, N = map(int, input().split())
 
     # 층수는 N을 H로 나눈 나머지에 100을 곱한수
     # 방 번호는 몫에 1을 더한 값이다.
