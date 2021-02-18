@@ -22,5 +22,14 @@ def sol1(word):
 print(sol1(word))
 
 # 재귀로 짜기
+def sol2(word):
+    idx = len(word) - 1
+    last_char = word[idx]
+    if idx == 0:
+        return last_char
+    word_except_last_char = word[:idx]
+    return last_char + sol2(word_except_last_char)
+
+print(sol2(word))
 
 
