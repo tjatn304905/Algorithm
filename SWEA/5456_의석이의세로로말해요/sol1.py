@@ -23,7 +23,7 @@ for tc in range(1, T+1):
             # if len(word[j]) > i:
             #     print(word[j][i], end ='')
             try:
-                print(word[j][i], end='')
+            print(word[j][i], end='')
             except:
                 pass
     print()
