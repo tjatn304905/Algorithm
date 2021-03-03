@@ -25,4 +25,6 @@ for _ in range(1, T+1):
         to = edge_list[idx+1]
         G[fr].append(to)
 
+    print(G)
+
     print('#{} {}'.format(tc, solution(G)))

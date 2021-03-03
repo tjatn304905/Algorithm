@@ -30,5 +30,4 @@ for tc in range(1, T+1):
         graph[start].append(end)
     S, G = map(int, input().split())
 
-
     print('#{} {}'.format(tc, solution(V, graph, S, G)))
