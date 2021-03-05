@@ -1,23 +1,22 @@
 import sys
 sys.stdin = open('sample_input.txt')
 
-def dfs(matrix, x, y):
+def solution(x, y, matrix):
+    stack = [[x, y, 0]]
     dxs = [0, 0, -1, 1]
     dys = [-1, 1, 0, 0]
-    stack = [[x, y]]
 
     while stack:
-        [x, y] = stack.pop()
+        x, y, cnt = stack.pop(0)
         for idx in range(4):
-            dx = dxs[idx]
-            dy = dys[idx]
-            if 0 <= x + dx < N and 0 <= y + dy < N and matrix[y + dy][x + dx] != 1:
+            dx, dy = dxs[idx], dys[idx]
+            if 0 <= x + dx < N and 0 <= y + dy < N and matrix[y+dy][x+dx] != 1:
                 if matrix[y + dy][x + dx] == 3:
-                    return 1
+                    return cnt
+                stack.append([x + dx, y + dy, cnt + 1])
                 matrix[y + dy][x + dx] = 1
-                stack.append([x + dx, y + dy])
-
-    return 0
+    else:
+        return 0
 
 
 T = int(input())
@@ -29,6 +28,6 @@ for tc in range(1, T+1):
     for y in range(N):
         for x in range(N):
             if matrix[y][x] == 2:
-                start = (x, y)
+                start = [x, y]
 
-    print('#{} {}'.format(tc, dfs(matrix, *start)))
+    print('#{} {}'.format(tc, solution(*start, matrix)))

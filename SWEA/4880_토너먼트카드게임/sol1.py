@@ -1,33 +1,32 @@
 import sys
 sys.stdin = open('sample_input.txt')
 
-def solution(cards):
+# 팀을 나누는 함수
+def divide(N):
+    teams = [N] + [0] * (N-1)
+    while True:
+        new_teams = [0] * N
+        # 팀 나누기
+        for idx in range(len(teams)):
+            if teams[idx] > 2:
+                new_teams[idx * 2] = (teams[idx] + 1) // 2
+                new_teams[idx * 2 + 1] = teams[idx] - (teams[idx] + 1) // 2
+        for idx in range(len(new_teams)):
+            teams[idx] = new_teams[idx]
+        print(teams, tc)
+        # while 종료조건
+        cnt = 0
+        for team in teams:
+            if team > 2:
+                cnt = 1
+        if cnt == 0:
+            return teams
 
-    if len(cards) == 1:
-        return cards.pop()
-    elif len(cards) == 2:
-        if cards[0] == 1:
-            if cards[1] == 2:
-                return cards.pop()
-            else:
-                cards.pop()
-                return cards.pop()
-        elif cards[0] == 2:
-            if cards[1] == 3:
-                return cards.pop()
-            else:
-                cards.pop()
-                return cards.pop()
-        else:
-            if cards[1] == 1:
-                return cards.pop()
-            else:
-                cards.pop()
-                return cards.pop()
-    else:
-        cards1 = cards[0:(len(cards) + 1) // 2]
-        cards2 = cards[(len(cards) + 1) // 2:len(cards)]
-        solution()
+def game(tournament, teams):
+
+    for team in teams:
+        if team == 2:
+
 
 T = int(input())
 
@@ -35,6 +34,9 @@ for tc in range(1, T+1):
     N = int(input())
     cards = list(map(int, input().split()))
 
-    print(cards)
+    teams = divide(N)
+    tournament = []
+    for idx in range(N):
+        tournament.append([cards[idx], idx + 1])
 
-    print('#{} {}'.format(tc, solution(cards)))
+    print('#{} {}'.format(tc, game(tournament, teams)))
