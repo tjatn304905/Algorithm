@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b0e5752d-8518-4b63-9d58-1d4bcd814abb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekjoon/13706_제곱근.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baekjoon/13706_제곱근.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
     <session id="-180234205">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
-          <entry key="project.open.time.0" value="11" />
+          <entry key="project.closed" value="35" />
+          <entry key="project.open.time.0" value="12" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="3" />
@@ -27,40 +29,53 @@
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="43" />
           <entry key="dummy" value="157" />
-          <entry key="py" value="83327" />
+          <entry key="py" value="85008" />
           <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="187" />
-          <entry key="Python" value="83370" />
+          <entry key="Python" value="85051" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="248" />
-          <entry key="txt" value="148" />
+          <entry key="py" value="250" />
+          <entry key="txt" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="148" />
-          <entry key="Python" value="248" />
+          <entry key="PLAIN_TEXT" value="150" />
+          <entry key="Python" value="250" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1248_공통조상/sol1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <marker date="1617634154088" expanded="true" signature="313:316" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1219_길찾기/sol1.py" />
-        <option value="$PROJECT_DIR$/1966_숫자정렬하기/quick.py" />
         <option value="$PROJECT_DIR$/1223_계산기2/sol1.py" />
         <option value="$PROJECT_DIR$/1859_백만장자프로젝트/sol2.py" />
         <option value="$PROJECT_DIR$/1859_백만장자프로젝트/sol1.py" />
@@ -126,14 +139,16 @@
         <option value="$PROJECT_DIR$/4881_배열최소합/sol4.py" />
         <option value="$PROJECT_DIR$/4881_배열최소합/sol1(재귀순열-제한시간초과).py" />
         <option value="$PROJECT_DIR$/1767_프로세서연결하기/sol1.py" />
+        <option value="$PROJECT_DIR$/1231_중위순회/sol1.py" />
+        <option value="$PROJECT_DIR$/1248_공통조상/sol1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="759" />
-    <option name="height" value="718" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="286" />
+    <option name="y" value="65" />
+    <option name="width" value="949" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -143,23 +158,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SWEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SWEA" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="SWEA" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SWEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SWEA" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,11 +192,11 @@
       <recent name="C:\Users\sumsoo\Desktop\github\algorithm\SWEA\4408_자기방으로돌아가기" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sumsoo\Desktop\github\algorithm\SWEA\1248_공통조상" />
+      <recent name="C:\Users\sumsoo\Desktop\github\algorithm\SWEA\1231_중위순회" />
       <recent name="C:\Users\sumsoo\Desktop\github\algorithm\SWEA\1767_프로세서연결하기" />
       <recent name="C:\Users\sumsoo\Desktop\github\algorithm\SWEA\4881_배열최소합" />
       <recent name="C:\Users\sumsoo\Desktop\github\algorithm\SWEA\5215_햄버거다이어트" />
-      <recent name="C:\Users\sumsoo\Desktop\github\algorithm\SWEA\4613_러시아국기같은깃발" />
-      <recent name="C:\Users\sumsoo\Desktop\github\algorithm\SWEA\1258_행렬찾기" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -196,7 +211,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sol1(재귀순열-제한시간초과)">
+  <component name="RunManager" selected="Python.sol1 (1)">
+    <configuration name="sol1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1248_공통조상" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1248_공통조상/sol1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1231_중위순회" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1231_중위순회/sol1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sol1(재귀순열-제한시간초과)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,48 +267,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4881_배열최소합/sol1(재귀순열-제한시간초과).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sol1(제한시간초과)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SWEA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4881_배열최소합" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\sumsoo\Desktop\github\algorithm\SWEA\4881_배열최소합\sol1(재귀순열-제한시간초과).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sol3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SWEA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4881_배열최소합" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\sumsoo\Desktop\github\algorithm\SWEA\4881_배열최소합\sol3(백트래킹-제한시간초과).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,19 +318,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sol1(제한시간초과)" />
-      <item itemvalue="Python.sol3" />
       <item itemvalue="Python.sol4" />
       <item itemvalue="Python.sol3(백트래킹-제한시간초과)" />
       <item itemvalue="Python.sol1(재귀순열-제한시간초과)" />
+      <item itemvalue="Python.sol1" />
+      <item itemvalue="Python.sol1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol1 (1)" />
+        <item itemvalue="Python.sol1" />
         <item itemvalue="Python.sol1(재귀순열-제한시간초과)" />
         <item itemvalue="Python.sol3(백트래킹-제한시간초과)" />
         <item itemvalue="Python.sol4" />
-        <item itemvalue="Python.sol3" />
-        <item itemvalue="Python.sol1(제한시간초과)" />
       </list>
     </recent_temporary>
   </component>
@@ -342,10 +357,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="286" y="65" width="949" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.52655536" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.39901477" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -357,7 +373,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.3464696" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.34" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,18 +421,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1225_암호생성기/output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1219_길찾기/sol1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1225_암호생성기/input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5099_피자굽기/sample_input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/5099_피자굽기/sol1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -655,6 +659,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1231_중위순회/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1231_중위순회/sol1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <marker date="1617613392724" expanded="true" signature="63:214" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1248_공통조상/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1248_공통조상/sol1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <marker date="1617634154088" expanded="true" signature="313:316" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
