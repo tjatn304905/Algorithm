@@ -1,34 +1,33 @@
 import sys
 sys.stdin = open('sample_input.txt')
 
+dx = [1, 0]
+dy = [0, 1]
 
-def solution(matrix, x, y):
 
-    global result, results
+def solution(x, y):
 
-    dx = [1, 0]
-    dy = [0, 1]
+    global result, minimum
 
+    # 가는 길마다 더해주고
     result += matrix[x][y]
 
     if x == y == N-1:
-        results.append(result)
-        print(results)
-        return result
+        if minimum > result:
+            minimum = result
+        return
 
+    # 가능성이 없는 애들은 가지치기
+    if result >= minimum:
+        return
 
     for i in range(2):
         if 0 <= x + dx[i] < N and 0 <= y + dy[i] < N:
-            x = x + dx[i]
-            y = y + dy[i]
 
-            # 가는 길마다 더해주고
-
-
-            solution(matrix, x, y)
+            solution(x + dx[i], y + dy[i])
 
             # 원상복귀
-            result -= matrix[x][y]
+            result -= matrix[x + dx[i]][y + dy[i]]
 
 
 T = int(input())
@@ -37,9 +36,9 @@ for tc in range(1, T+1):
     N = int(input())
     matrix = [list(map(int, input().split())) for _ in range(N)]
 
-    result = matrix[0][0]
-    results = []
+    minimum = 100000
+    result = 0
 
-    solution(matrix, 0, 0)
+    solution(0, 0)
 
-    print(min(results))
+    print('#{} {}'.format(tc, minimum))
