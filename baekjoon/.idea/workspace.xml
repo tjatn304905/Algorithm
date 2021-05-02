@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7b108e4-263b-4e3d-b4ea-b57288bd157d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../SWEA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/2806_N-Queen/sol1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/2806_N-Queen/sol1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12907_동물원.py" beforeDir="false" afterPath="$PROJECT_DIR$/12907_동물원.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programmers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../programmers/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +24,10 @@
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,45 +43,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="10110" />
+          <entry key="py" value="11239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="10110" />
+          <entry key="Python" value="11239" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16236_아기상어.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding>
-                <marker date="1617887313644" expanded="true" signature="215:939" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/12907_동물원.py">
+        <entry file="file://$PROJECT_DIR$/1916_최소비용구하기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="38" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1260_dfs와bfs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" selection-start-line="20" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="98">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <marker date="1619856324012" expanded="true" signature="15:709" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,14 +96,15 @@
         <option value="$PROJECT_DIR$/12871_무한문자열.py" />
         <option value="$PROJECT_DIR$/16236_아기상어.py" />
         <option value="$PROJECT_DIR$/12907_동물원.py" />
+        <option value="$PROJECT_DIR$/1916_최소비용구하기.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="534" />
-    <option name="y" value="84" />
+    <option name="x" value="450" />
+    <option name="y" value="12" />
     <option name="width" value="746" />
-    <option name="height" value="670" />
+    <option name="height" value="651" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -131,7 +113,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="baekjoon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -148,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.12907_동물원">
+  <component name="RunManager" selected="Python.1916_최소비용구하기">
     <configuration name="12871_무한문자열" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,7 +228,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16953_AtoB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1916_최소비용구하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,7 +240,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16953_AtoB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1916_최소비용구하기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,19 +250,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.16953_AtoB" />
       <item itemvalue="Python.13706_제곱근" />
       <item itemvalue="Python.12907_동물원" />
       <item itemvalue="Python.12871_무한문자열" />
       <item itemvalue="Python.16236_아기상어" />
+      <item itemvalue="Python.1916_최소비용구하기" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1916_최소비용구하기" />
         <item itemvalue="Python.12907_동물원" />
         <item itemvalue="Python.16236_아기상어" />
         <item itemvalue="Python.12871_무한문자열" />
         <item itemvalue="Python.13706_제곱근" />
-        <item itemvalue="Python.16953_AtoB" />
       </list>
     </recent_temporary>
   </component>
@@ -285,15 +280,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="534" y="84" width="746" height="670" extended-state="0" />
+    <frame x="450" y="12" width="746" height="651" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32909605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32909605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.317757" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32945737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39244664" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,8 +408,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12907_동물원.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="114">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1916_최소비용구하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1619856324012" expanded="true" signature="15:709" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
