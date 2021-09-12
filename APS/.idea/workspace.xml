@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2a76492-b659-45f5-aeb9-9da497031704" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.List1/버블정렬.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.List1/순열반복문.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.List2/델타이동.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.List2/부분집합.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.List2/상하좌우.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.List2/선택정렬.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.List2/순차검색.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.List2/순회방식.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.List2/이차원입력.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.String/ASCII.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.String/atoi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.String/고지식패턴.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.Stack/functioncall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.Stack/팩토리얼.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.Stack/피보나치.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.Stack2/powerset_연습문제.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.Stack2/powerset_연습문제_교수님풀이.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.Stack2/powerset_재귀.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.Stack2/거듭제곱.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.Stack2/순열_비트.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.Stack2/순열_스왑.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.Stack2/순열_재귀.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.Queue/queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.Queue/내장함수큐.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.Queue/연습문제2_마이쮸.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.Tree/순회.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
